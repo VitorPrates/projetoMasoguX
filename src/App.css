@@ -1,0 +1,158 @@
+.main_container {
+  margin: 0px auto;
+  max-width: 1260px;
+  width: 100%;
+}
+.main_container .main_anuncios {
+  display: flex;
+  align-items: center;
+  height: 300px;
+  border-radius: 20px;
+  margin: 10px auto;
+}
+.main_container .main_anuncios .anuncios {
+  margin: 0px 5px 0px auto;
+  width: 75%;
+  height: 80%;
+  background-color: purple;
+  position: relative;
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid;
+}
+.main_container .main_anuncios .anuncios .anc {
+  min-width: 100%;
+  height: 100%;
+  background-color: yellow;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  left: 0%;
+}
+.main_container .main_anuncios .anuncios .anc0 {
+  background-color: rgb(61, 104, 61);
+  background-image: url("https://www.shutterstock.com/image-photo/arduino-programmers-peripherals-expansion-boards-260nw-1689365050.jpg");
+  background-position: center;
+  background-size: 100%;
+}
+.main_container .main_anuncios .anuncios .anc1 {
+  background-color: blue;
+  background-image: url("https://c8.alamy.com/comp/F774A0/arduino-uno-microcontroller-board-F774A0.jpg");
+}
+.main_container .main_anuncios .anuncios .anc2 {
+  background-color: aqua;
+  background-image: url("https://www.shutterstock.com/image-vector/arduino-board-programing-internet-things-260nw-2172749531.jpg");
+}
+.main_container .main_anuncios .anuncios .anc3 {
+  background-color: lightblue;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZeYo11OWvdrtclROr0GNXpubnE5AIs9FOLw&usqp=CAU");
+}
+.main_container .main_anuncios img {
+  margin: 30px auto 30px auto;
+}
+.main_container .main_Produtos {
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.main_container .main_Produtos .produtos {
+  margin: auto;
+  width: 95%;
+  height: 90%;
+  border-radius: 20px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 8% 100%;
+  gap: 3px;
+}
+.main_container .main_Produtos .produtos h2 {
+  width: 100%;
+  cursor: pointer;
+  grid-column-end: 3;
+  grid-column-start: 1;
+}
+.main_container .main_Produtos .produtos .list_produtos {
+  width: 100%;
+  height: 90%;
+  border: 2px solid;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+.main_container .main_Produtos .produtos .list_produtos i {
+  color: black;
+  font-size: 2em;
+  transition: 0.2s;
+}
+.main_container .main_Produtos .produtos .list_produtos i:nth-child(1):active {
+  transform: translateX(-5px);
+}
+.main_container .main_Produtos .produtos .list_produtos i:nth-child(3):active {
+  transform: translateX(5px);
+}
+.main_container .main_Produtos .produtos .list_produtos .card_produtos {
+  display: flex;
+  align-items: center;
+  border: 2px solid;
+  width: 100%;
+  height: 90%;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+  transition: 0.2;
+}
+.main_container .main_Produtos .produtos .list_produtos .card_produtos i {
+  color: white;
+}
+.main_container .main_Produtos .produtos .todos_produtos {
+  width: 100%;
+  height: 90%;
+  max-height: 300px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  color: black;
+  cursor: default;
+  /* width */
+  /* Track */
+  /* Handle */
+  /* Handle on hover */
+}
+.main_container .main_Produtos .produtos .todos_produtos h2 {
+  text-align: center;
+  margin: 5px 0px 0px 0px;
+  font-size: 1.6em;
+}
+.main_container .main_Produtos .produtos .todos_produtos ul {
+  max-width: 100%;
+  overflow: auto;
+  list-style: "- ";
+  padding: 10px 10px 10px 20px;
+  font-size: 1.3em;
+}
+.main_container .main_Produtos .produtos .todos_produtos ul li {
+  transition: 0.2s;
+}
+.main_container .main_Produtos .produtos .todos_produtos ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  transform: translateX(7px);
+}
+.main_container .main_Produtos .produtos .todos_produtos ::-webkit-scrollbar {
+  width: 10px;
+}
+.main_container .main_Produtos .produtos .todos_produtos ::-webkit-scrollbar-track {
+  border-radius: 10px 0px;
+  margin: 0.4px;
+}
+.main_container .main_Produtos .produtos .todos_produtos ::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px 0px;
+}
+.main_container .main_Produtos .produtos .todos_produtos ::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}/*# sourceMappingURL=App.css.map */

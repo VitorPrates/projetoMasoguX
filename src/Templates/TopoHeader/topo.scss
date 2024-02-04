@@ -1,0 +1,54 @@
+.main_header_template
+{
+    width: 100%;
+    // background-color: rgb(183, 255, 183);
+    height: 90px;
+    max-height: 111.8px;
+    display: flex;
+    align-items: center;
+    .Logo_header_1
+    {
+        margin: 0px 0px 0px 10px;
+        height: 90px;
+    }
+    .header_nav_1
+    {
+        display: flex;
+        height: fit-content;
+        margin: 0px 0px 0px 20px;
+        h3
+        {
+            margin: 0px 20px 0px 20px;
+            font-size: 1.1em;
+            position: relative;
+            cursor: pointer;
+            transition: 0.2s;
+            font-weight: 400;
+        }
+        h3:hover
+        {
+            transform: translateY(-4px);
+        }
+        h3:before
+        {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: calc(0% - 10px);
+            width: calc(100% + 20px);
+            height: 2px;
+            transition: 0.2s;
+            background-color: black;
+        }
+        h3:hover:before
+        {
+            background-color: red;
+            transform: translateY(4px);
+        }
+    }
+    .logo_header_extend_1
+    {
+        height: 60px;
+        margin: 0px 0px 0px auto;
+    }
+}

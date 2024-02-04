@@ -1,0 +1,32 @@
+.main_footer_template {
+  width: 100%;
+  height: 150px;
+  max-height: 150px;
+  color: white;
+  background-color: black;
+  display: flex;
+  align-items: center;
+}
+.main_footer_template .Contato_footer h2, .main_footer_template .Contato_footer h3 {
+  font-size: 1.2em;
+  margin: 10px 0px 0px 20px;
+  font-weight: 500;
+}
+.main_footer_template .Contato_footer h2 span, .main_footer_template .Contato_footer h3 span {
+  font-weight: 300;
+}
+.main_footer_template .Contato_footer h2 {
+  font-size: 1.5em;
+  cursor: default;
+}
+.main_footer_template .Contato_footer h3 {
+  cursor: pointer;
+  transition: 0.2s;
+}
+.main_footer_template .Contato_footer h3:hover {
+  transform: translateX(5px);
+}
+.main_footer_template .logo_footer_1 {
+  margin: 0px 0px 0px auto;
+  height: 90px;
+}/*# sourceMappingURL=chao.css.map */
